@@ -1,0 +1,15 @@
+// (((4^3)-7)+12)/(4+6)
+MOV A, 4 
+MOV B, 4
+MUL B
+MUL B
+SUB A, 7
+ADD A, 12
+MOV B, 4
+MOV C, 6
+ADD B, C
+DIV B
+
+
+
+
